@@ -1,0 +1,74 @@
+/*-- End Configuration Layout --*/
+#detail_product_picture {
+    width: 520px; float:left; margin-bottom:10px;
+}
+#detail_product_picture_main {width: 395px; float:right;}
+#detail_product_picture_main h6 {
+    display: table-cell;
+    font-size: 0;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+    width: 395px; float:right;
+}
+#detail_product_picture_main h6 img {
+    cursor: pointer;width:393px; margin-bottom:5px; border: solid 1px #ccc;
+}
+#detail_product_picture_main .loading {
+    background: url("../images/loading_1.gif") no-repeat scroll center center #FFFFFF;
+    height: 300px;
+    position: absolute;
+    width: 300px;
+}
+.hidden {
+    display: none;
+}
+#detail_product_picture_thumbnail { width:90px; float:left;}
+#detail_product_picture_thumbnail .left, #detail_product_picture_thumbnail .right {
+    background: url("../images/icon_navigate_small.gif") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 30px;
+    margin: 19px 0;
+    width: 20px;
+}
+#detail_product_picture_thumbnail .left {
+    background-position: 0 0;
+    margin-right: 3px;
+}
+#detail_product_picture_thumbnail .left:hover {
+    background-position: -20px 0;
+}
+#detail_product_picture_thumbnail .right {
+    background-position: 0 -30px;
+    margin-left: 3px;
+}
+#detail_product_picture_thumbnail .right:hover {
+    background-position: -20px -30px;
+}
+#detail_product_picture_thumbnail .center {
+    float: left;
+    overflow: hidden;
+    width: 100px;
+}
+#detail_product_picture_thumbnail table {
+    margin: 0 auto;
+}
+#detail_product_picture_thumbnail table td {
+    height: 60px;width: 100px; border-top:1px dashed #eee;
+}
+#detail_product_picture_thumbnail table td.current {
+    width: 100px; /*border: 0px solid #D8052B;*/
+}
+#detail_product_picture_thumbnail table td a {
+    display: block;
+    text-align: center;
+    width: 100px;
+}
+#detail_product_picture_thumbnail table td img {
+    width: 90px;
+    margin:5px;
+}
+
+.small_images{ border:1px solid #eee; border-radius: 5px;-moz-border-radius: 5px; width:100px; float:left;}
+.video_pro { width:100%; float:left;}
+.video_pro img{ width:90px; height:60px;margin:5px;}
